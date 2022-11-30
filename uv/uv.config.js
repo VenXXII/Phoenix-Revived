@@ -1,6 +1,6 @@
 /*global Ultraviolet*/
 self.__uv$config = {
-    prefix: '/service/',
+    prefix: '/Phoenix-Revival/service/',
     bare: 'https://uv.holyubofficial.net/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
