@@ -1,0 +1,63 @@
+<html class="full-height" lang="en-US">
+  <head>
+    <title>Phoenix Revival</title>
+    <link rel="icon" href="./img/logo.png">
+    <meta charset="UTF-8">
+    <meta name="description" content="TitaniumNetwork creates the highest quality open-source web proxies. We also have an extensive arcade and are community-driven.">
+    <meta name="keywords" content="proxy,titanium,network,bypass,games,youtube,unblocked">
+    <meta name="author" content="Titanium Network">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/primary.css" rel="stylesheet">
+    <link href="./uv/uv.css" rel="stylesheet">
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/mdb.min.js"></script>
+  </head>
+  <body id="top">
+<!-- Navbar-->
+      <nav class="navbar white-text navbar-expand-lg navbar-dark fixed-top" id="navbar">
+        <div class="container"><a class="navbar-brand" href="index.html"><strong>Phoenix Revival</strong></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a class="nav-link waves-effect waves-light" href="./games.html">Games</a></li> 
+              <li class="nav-item"><a class="nav-link waves-effect waves-light" href="./contributors.html">Staff & Contributors</a></li></ul>
+            <a class="btn btn-primary btn-rounded my-0 waves-effect waves-light" href="https://github.com/titaniumnetwork-dev/" target="_blank">Check me out on Github!</a>
+          </div>
+        </div>
+      </nav>
+  <body>
+    <div
+      title="Ultraviolet Logo"
+      class="flex-center logo-wrapper header-center"
+    >
+      <img class="logo" src="./uv/uv.png" alt="Ultraviolet" />
+      <h1
+        title="Ultraviolet supports YouTube, GeForce NOW and more! Service by TitaniumNetwork."
+      >
+        Ultraviolet | TN
+      </h1>
+    </div>
+    <div
+      title="Ultraviolet uses the power of service-workers and more! Unblock many sites today with Ultraviolet!"
+      class="flex-center desc"
+    >
+      <p>
+        Ultraviolet is highly sophisticated proxy used for evading internet
+        censorship.
+      </p>
+    </div>
+
+    <form id="uv-form" class="flex-center">
+      <input id="uv-address" placeholder="Search the web freely" />
+    </form>
+    <p id="error"></p>
+    <code id="error-code"></code>
+    <script src="./uv/uv.bundle.js"></script>
+    <script src="./uv/uv.config.js"></script>
+    <script src="./uv/register-sw.js"></script>
+    <script src="./uv/index.js"></script>
+  </body>
+</html>
